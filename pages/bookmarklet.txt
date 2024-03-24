@@ -1,2 +1,0 @@
-Create a bookmark with this as it's url:
-javascript:(function()%7Bdocument.querySelector(%22body%22).remove()%0Adocument.querySelector(%22head%22).remove()%0Alet%20expandingList%20%3D%20document.createElement(%22iframe%22%2C%20%7B%20src%3A%20%22https%3A%2F%2Fgoogle.com%22%20%7D)%3B%7D)()%3B
