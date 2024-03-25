@@ -109,6 +109,7 @@
 		</style>
 		<script>
 document.querySelector(".hamburger").addEventListener("click", mobileMenu);
+document.querySelector(".active").addEventListener("click", closeMenu);
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", closeMenu));
 
 function mobileMenu() {
