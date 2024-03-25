@@ -63,7 +63,7 @@
         transition: all 0.3s ease-in-out;
         background-color: white;
     }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1150px) {
         .nav-menu {
             position: fixed;
             left: -100%;
@@ -111,8 +111,8 @@
 			const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
-			hamburger.addEventListener("click", mobileMenu);
-navLink.forEach(n => n.addEventListener("click", closeMenu));
+			hamburger.addEventListener("click", mobileMenu());
+navLink.forEach(n => n.addEventListener("click", closeMenu()));
 
 function mobileMenu() {
     hamburger.classList.toggle("active");
